@@ -1,0 +1,788 @@
+{
+  "info": {
+    "_postman_id": "c4df4a62-a16f-4449-aee5-55132f483b60",
+    "name": "api 20 filmes",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53975018",
+    "_collection_link": "https://go.postman.co/collection/53975018-c4df4a62-a16f-4449-aee5-55132f483b60?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "interestelar 1",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Interestelar\",\r\n  \"diretor\": \"Nolan\",\r\n  \"ano\": 2014\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "matrix 2",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Matrix\",\r\n  \"diretor\": \"Wachowski\",\r\n  \"ano\": 1999\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "inception 3",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Inception\",\r\n  \"diretor\": \"Nolan\",\r\n  \"ano\": 2010\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "titanic 4",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Titanic\",\r\n  \"diretor\": \"Cameron\",\r\n  \"ano\": 1997\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "avatar 5",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Avatar\",\r\n  \"diretor\": \"Cameron\",\r\n  \"ano\": 2009\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "gladiador 6",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Gladiador\",\r\n  \"diretor\": \"Scott\",\r\n  \"ano\": 2000\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "vingadores 7",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Vingadores\",\r\n  \"diretor\": \"Marvel\",\r\n  \"ano\": 2012\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "batman 8",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Batman\",\r\n  \"diretor\": \"Nolan\",\r\n  \"ano\": 2008\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "coringa 9",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Coringa\",\r\n  \"diretor\": \"Todd\",\r\n  \"ano\": 2019\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "shrek 10",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Shrek\",\r\n  \"diretor\": \"DreamWorks\",\r\n  \"ano\": 2001\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "homem-aranha 11",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Homem-Aranha\",\r\n  \"diretor\": \"Marvel\",\r\n  \"ano\": 2002\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "harry potter 12",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Harry Potter\",\r\n  \"diretor\": \"Columbus\",\r\n  \"ano\": 2001\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "senhor dos aneis 13",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Senhor dos Anéis\",\r\n  \"diretor\": \"Jackson\",\r\n  \"ano\": 2003\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "star wars 14",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Star Wars\",\r\n  \"diretor\": \"Lucas\",\r\n  \"ano\": 1977\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "jurassic park 15",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Jurassic Park\",\r\n  \"diretor\": \"Spielberg\",\r\n  \"ano\": 1993\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "velozes e furiosos 16",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Velozes e Furiosos\",\r\n  \"diretor\": \"Cohen\",\r\n  \"ano\": 2001\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "deadpool 17",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Deadpool\",\r\n  \"diretor\": \"Miller\",\r\n  \"ano\": 2016\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "pantera negra 18",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Pantera Negra\",\r\n  \"diretor\": \"Coogler\",\r\n  \"ano\": 2018\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "frozen 19",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Frozen\",\r\n  \"diretor\": \"Disney\",\r\n  \"ano\": 2013\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "toy story 20",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Toy Story\",\r\n  \"diretor\": \"Pixar\",\r\n  \"ano\": 1995\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "lista todos os filmes",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/filmes/",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes",
+            ""
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "lista 1 filme por numero",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/filmes/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "atualizar",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"titulo\": \"Coherence\",\r\n  \"diretor\": \"James Ward Byrkit\",\r\n  \"ano\": 2013\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/filmes/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "remove",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/filmes/1",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "filtra por ano",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/filmes?ano=2010",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ],
+          "query": [
+            {
+              "key": "ano",
+              "value": "2010"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "mostra 5",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/filmes?page=1&limit=5",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ],
+          "query": [
+            {
+              "key": "page",
+              "value": "1"
+            },
+            {
+              "key": "limit",
+              "value": "5"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ordena",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/filmes?ordem=ASC",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ],
+          "query": [
+            {
+              "key": "ordem",
+              "value": "ASC"
+            }
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "ordena descendo",
+      "request": {
+        "auth": {
+          "type": "noauth"
+        },
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/filmes?ordem=DESC",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "filmes"
+          ],
+          "query": [
+            {
+              "key": "ordem",
+              "value": "DESC"
+            }
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
